@@ -39,8 +39,10 @@ public class Ejemplo3 {
         promedio = suma / 2;
         
         if (promedio >= 7.5) {
-            System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Estudiante aprobado con un"
+                    + "promedio: %.2f\nLas notas ingresadas fueron:\n\t"
+                    + "Nota 1: %.lf\n\tNota 2: %.lf\n\nSecretario General\n", 
+                    promedio, nota1, nota2);
         }else{
             System.out.printf("Estudiante reprobado con un "
                     + "promedio: %.2f\n", promedio);
